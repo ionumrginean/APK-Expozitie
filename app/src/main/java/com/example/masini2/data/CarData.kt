@@ -1,0 +1,14 @@
+package com.example.masini2.data
+
+import com.example.masini2.R
+
+class CarData {
+
+    fun allCars(): List<CarItem> {
+        return listOf(
+            CarItem(id=1,model = "Ferrari GTO", descriere = "Ferrari made just 39 of these elegant race cars between 1962 and 1964, so they are extremely rare. \"The 250 GTO is probably the holy grail in terms of value and recognition, but the reality is only a handful of people in the world will ever have the chance to legitimately drive one,\" Hagerty says. An early model fetched \$38 million at Bonhams' Quail Lodge auction at the Pebble Beach Concours d'Elegance few years ago. If that's too pricey, know that any 1960s Prancing Horse with a V12 engine is worthy of making the list.", R.drawable.ferrari_gto),
+            CarItem(id=2,model = "McLaren F1", descriere = "The McLaren F1 announced the British supercar maker's foray into modern racing when it was unveiled in 1992. Six years later, it set the record for the world's fastest production car, at 242 mph. \"The McLaren F1 was Formula One legend Gordon Murray's high-tech supercar answer to Porsche and Ferrari,\" Hagerty says. \"And it didn't just exceed the standards they established, it obliterated them. Driving an F1 is a sublime ballet of shocking power, braking, and control.\" McLaren only built 64 of these, but fortunately, it just put up for sale chassis #69, the 60th model built.",R.drawable.mclaren_f1),
+            CarItem(id=3,model = "1957 Mercedes 300SL Gullwing", descriere = "Among the first sports cars of the post-war era, the Mercedes SL 300 Gullwing was the fastest production car of its time when it was introduced in 1954. As the first direct fuel injection series production car, the SL 300 could travel at an eye-popping 160 miles per hour. \"Nobody expected something like that from Mercedes,\" says Constantin von Kageneck, a specialist in classic car marketing at the Mercedes-Benz Classic Center in Irvine, CA. Though about three-quarters of the original SL 300's survive today, many still belong to their original owners.",R.drawable.mercedes_sl_300_gullwing),
+            CarItem(id=4,model = "1963 Corvette Sting Ray", descriere = "While nothing was wrong with the Corvette prior to ’63, when the Sting Ray rolled out it made the previous models look like chopped liver (fast & still somewhat attractive chopped liver). Besides the new look, the C2 Corvette was a bit lighter and handled far better than its predecessors. While some nice stylistic changes would be made in the coming years, there’s something about being first.", R.drawable.corvette_sting_ray_1963))
+    }
+}

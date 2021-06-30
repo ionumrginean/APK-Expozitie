@@ -1,0 +1,2 @@
+rootProject.name = "Masini2"
+include ':app'
